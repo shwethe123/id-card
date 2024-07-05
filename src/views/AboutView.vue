@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <potoUpload></potoUpload>
 </template>
+
+<script>
+import potoUpload from '@/components/potoUpload.vue'
+export default {
+  components: { potoUpload },
+
+}
+</script>
+
+<style>
+
+</style>
